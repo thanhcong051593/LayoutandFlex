@@ -1,0 +1,3 @@
+rootProject.name = 'LayoutandFlex'
+
+include ':app'
