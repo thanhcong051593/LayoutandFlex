@@ -6,70 +6,70 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.wrapper}>
-        <view style={styles.row}>
-            <view style={styles.col}>
+        <View style={styles.row}>
+            <View style={styles.col}>
                 <Text style={styles.number}>1</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>2</Text>
                 <Text style={styles.text}>ABC</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>3</Text>
                 <Text style={styles.text}>DEF</Text>
-            </view>
+            </View>
 
-        </view>
+        </View>
 
-        <view style={styles.row}>
-            <view style={styles.col}>
+        <View style={styles.row}>
+            <View style={styles.col}>
                 <Text style={styles.number}>4</Text>
                 <Text style={styles.text}>GHI</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>5</Text>
                 <Text style={styles.text}>JKL</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>6</Text>
                 <Text style={styles.text}>MNO</Text>
-            </view>
-        </view>
+            </View>
+        </View>
 
-        <view style={styles.row}>
-            <view style={styles.col}>
+        <View style={styles.row}>
+            <View style={styles.col}>
                 <Text style={styles.number}>7</Text>
                 <Text style={styles.text}>PQRS</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>8</Text>
                 <Text style={styles.text}>TUV</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>9</Text>
                 <Text style={styles.text}>WXYZ</Text>
-            </view>
-        </view>
+            </View>
+        </View>
 
-        <view style={styles.row}>
-            <view style={styles.col}>
+        <View style={styles.row}>
+            <View style={styles.col}>
 
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.number}>0</Text>
-            </view>
+            </View>
 
-            <view style={styles.col}>
+            <View style={styles.col}>
                 <Text style={styles.text}>X</Text>
-            </view>
-        </view>
+            </View>
+        </View>
         
       </View>
     );
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     flex:1,
     borderBottomColor: 'grey',
     borderBottomWidth: 1,
-    flexDirection: row
+    flexDirection: 'row'
   },
   col: {
     flex:1,
@@ -100,3 +100,4 @@ const styles = StyleSheet.create({
 
   }
 });
+
